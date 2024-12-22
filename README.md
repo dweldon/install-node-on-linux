@@ -1,6 +1,6 @@
 # Install Node on Linux
 
-<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" alt="node.js logo" width="300" height="183.7" style="margin: 2rem 0;">
+<img src="https://nodejs.org/static/logos/nodejsDark.svg" alt="node.js logo" width="267" height="80" style="margin: 2rem 0;">
 
 Installing node on linux shouldn't be a huge pain. Every guide out there will
 point you to one of these options:
@@ -22,7 +22,7 @@ use this script.**
 ## Notes
 
 - This script adds an `export` to the end of your `~/.bashrc`.
-- It works on Ubuntu. I haven't tested it on other distributions.
+- It works on Ubuntu and PopOS. I haven't tested it on other distributions.
 - If you find an issue with your distribution, open an issue or send me a PR.
 
 ## Install
@@ -46,10 +46,10 @@ echo "yarn" >> packages
 
 ## Change version
 
-This will download and install a specific version. In this example: `16.15.0`.
+This will download and install a specific version. In this example: `22.12.0`.
 
 ```sh
-./change-version.sh '16.15.0'
+./change-version.sh '22.12.0'
 ```
 
 ## Uninstall
